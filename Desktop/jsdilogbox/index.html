@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="./css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Js dialog</title>
+</head>
+<body>
+    <div class="container">
+        <img src="./img/learning.jpg" class="img-header" alt="coding"/>
+        <div>
+            <h1 class="header-text"> coding sikhana he sikha denge !</h1>
+            <img src="./img/scanner.jpg" class="img-qr" alt="QR Coding"/>
+            <p class="qr-description"> 
+                scan the QR code to more tejal whatsapp contact info
+            </p>
+        </div>
+    </div>
+    <button type="button" class="btn" onclick="openModal()">
+        Enroll Now
+    </button>
+    <div class="overlay" id="overlay">
+    <div class="model">
+        <img src="./img/close.png" class=" close-icon" alt="close" onclick="closeModal()" />
+
+        <form class="form">
+            <h1> Enroll Now</h1>
+            
+            <input type="text" placeholder="Enter your name" class="input">
+
+            <input type="email" placeholder="Enter your email" class="input">
+
+            <input type="number" placeholder="Enter your number" class="input">
+
+            <input type="text" placeholder="Enter your phon number" class="input">
+
+            <input type="text" placeholder="Enter your collage name" class="input">
+            
+        </form>
+        <button type="button" class="btn" >
+            Procid to payment
+        </button>
+</div>
+    </div>
+
+    <script src="./js/script.js"></script>
+</body>
+</html>
